@@ -7,12 +7,12 @@ class App extends React.Component {
   render() {
     return (
       //JSX compiled with Babel
+      //purpose of React is to have multiple files containing UI code
+      //and import those files into one single file
+      //then that one single file gets exported onto the main index.html
+      //lastly the main index.html is what you see in browser
       <div>
         <p>Hello Weather App Users!!!</p>
-        //purpose of React is to have multiple files containing UI code
-        //and import those files into one single file
-        //then that one single file gets exported onto the main index.html
-        //lastly the main index.html is what you see in browser
       </div>
     )
   }
