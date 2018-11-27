@@ -29,3 +29,13 @@
 
 //Main file working work, React Component
 import React from 'react' //import react object from react package in package.json
+
+//this class creates an instance of App and extends React.Component that is an object that lives in
+//node_modules
+class App extends React.Component {
+  render() {
+    return (
+      //JSX compiled with Babel
+    )
+  }
+}
